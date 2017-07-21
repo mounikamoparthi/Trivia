@@ -1,0 +1,13 @@
+<h3> Answer all the Questions </h3>
+
+
+  <h4 *ngFor= "let q of allQuestions">
+    <h3> {{ q.question }} </h3>
+    <input type ="radio" value = 'cans' > {{ q.correctans }} <br>
+    <input type ="radio" value = 'f1'> {{ q.fake1 }} <br>
+    <input type ="radio" value = 'f2'> {{ q.fake2 }} <br>
+</h4>
+<input type="submit" value="Submit" > <br><br>
+<input type="submit" value="Cancel">
+
+
